@@ -54,7 +54,7 @@ public class RunTavolo extends HttpServlet {
 			
 			tavolo = new Tavolo();
 			tavolo.setNumeroPosti(Integer.parseInt(request.getParameter("numeroPosti")));
-			tavolo.setOccupato(Boolean.parseBoolean(request.getParameter("occupato")));
+			tavolo.setOccupato(false);
 			daoTavolo.add_tavolo(tavolo);
 			response.sendRedirect("RunTavolo?scelta=1");
 			break;
@@ -62,7 +62,7 @@ public class RunTavolo extends HttpServlet {
 			tavolo = new Tavolo();
 			tavolo.setId(Integer.parseInt(request.getParameter("id")));
 			tavolo.setNumeroPosti(Integer.parseInt(request.getParameter("numeroPosti")));
-			tavolo.setOccupato(Boolean.parseBoolean(request.getParameter("occupato")));
+			tavolo.setOccupato(Boolean.parseBoolean(request.getParameter("occupazione")));
 			daoTavolo.update_tavolo(tavolo);
 			response.sendRedirect("RunTavolo?scelta=1");
 			break;

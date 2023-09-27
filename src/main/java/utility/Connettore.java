@@ -13,7 +13,7 @@ public class Connettore {
 	private final String PATHJDBC = "com.mysql.cj.jdbc.Driver";
 	private final String URL = "jdbc:mysql://localhost:3306/ristoranteweb_db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 	private final String USER = "root";
-	private final String PASS = "";
+	private final String PASS = "root";
 	
 	public static Connettore get_instance() {
 		if(instance == null)

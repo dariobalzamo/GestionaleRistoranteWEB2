@@ -9,7 +9,7 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/lapto/OneDrive/Documenti/LIBRERIE JAVA/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/lapto/OneDrive/Documenti/LIBRERIE JAVA/mysql-connector-java-8.0.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lapto/OneDrive/Documenti/LIBRERIA JAVA/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lapto/OneDrive/Documenti/LIBRERIA JAVA/mysql-connector-java-8.0.21.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
